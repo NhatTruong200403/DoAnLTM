@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Nhật Trường Blog</title>
+    <link>http://localhost:61722/blogs/</link>
+    <description>Recent content in Blogs on Nhật Trường Blog</description>
+    <generator>Hugo</generator>
+    <language>vi-VN</language>
+    <lastBuildDate>Mon, 30 Dec 2024 12:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:61722/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bảo mật Spring Boot RESTful Service sử dụng Basic Authentication trong Java</title>
+      <link>http://localhost:61722/blogs/javaf/</link>
+      <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
+      <guid>http://localhost:61722/blogs/javaf/</guid>
+      <description>Bài viết này sẽ hướng dẫn bạn cách bảo mật một dịch vụ RESTful trong Spring Boot sử dụng Basic Authentication. Chúng ta sẽ cấu hình Spring Security để yêu cầu xác thực khi truy cập vào các endpoint của dịch vụ.</description>
+    </item>
+    <item>
+      <title>Các thuộc tính của Spring Boot trong Java</title>
+      <link>http://localhost:61722/blogs/javad/</link>
+      <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
+      <guid>http://localhost:61722/blogs/javad/</guid>
+      <description>Spring Boot cung cấp rất nhiều thuộc tính cấu hình để tùy chỉnh và tối ưu hóa ứng dụng. Trong bài viết này, chúng ta sẽ khám phá các thuộc tính quan trọng của Spring Boot và cách sử dụng chúng.</description>
+    </item>
+    <item>
+      <title>Cài đặt Spring Boot trong Java và xây dựng dự án cơ bản</title>
+      <link>http://localhost:61722/blogs/javac/</link>
+      <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
+      <guid>http://localhost:61722/blogs/javac/</guid>
+      <description>Spring Boot là một framework mạnh mẽ giúp phát triển ứng dụng Java nhanh chóng và dễ dàng. Trong bài viết này, chúng ta sẽ tìm hiểu cách cài đặt Spring Boot và tạo một dự án Spring Boot cơ bản, bao gồm việc tạo các API REST đơn giản.</description>
+    </item>
+    <item>
+      <title>Giới thiệu về ngôn ngữ Java</title>
+      <link>http://localhost:61722/blogs/javab/</link>
+      <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
+      <guid>http://localhost:61722/blogs/javab/</guid>
+      <description>Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất trên thế giới. Được phát triển bởi Sun Microsystems (nay là Oracle), Java đã chinh phục được nhiều lập trình viên nhờ tính ổn định, khả năng mở rộng và tính di động cao. Trong bài viết này, chúng ta sẽ cùng tìm hiểu về ngôn ngữ Java, đặc điểm nổi bật và ứng dụng của nó trong thế giới lập trình.</description>
+    </item>
+    <item>
+      <title>Giới thiệu về Spring Boot Actuator trong ứng dụng Spring Boot</title>
+      <link>http://localhost:61722/blogs/javae/</link>
+      <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
+      <guid>http://localhost:61722/blogs/javae/</guid>
+      <description>Spring Boot Actuator cung cấp các tính năng giám sát và quản lý cho các ứng dụng Spring Boot, giúp dễ dàng theo dõi và quản lý trạng thái của ứng dụng trong môi trường sản xuất. Bài viết này giới thiệu về các tính năng chính của Spring Boot Actuator và cách sử dụng chúng.</description>
+    </item>
+    <item>
+      <title>Toàn bộ kiến thức Java từ cơ bản đến nâng cao</title>
+      <link>http://localhost:61722/blogs/javaa/</link>
+      <pubDate>Thu, 23 Feb 2023 12:00:00 +0700</pubDate>
+      <guid>http://localhost:61722/blogs/javaa/</guid>
+      <description>Java là một ngôn ngữ lập trình rất phổ biến với khả năng phát triển đa nền tảng. Phiên bản Java 8 đánh dấu một bước ngoặt lớn trong việc giới thiệu các tính năng mạnh mẽ như Stream API và Lambda Expressions, giúp việc xử lý dữ liệu trở nên dễ dàng hơn bao giờ hết. Trong bài viết này, chúng ta sẽ khám phá các chủ đề quan trọng để học Java từ cơ bản đến nâng cao, bao gồm Java Core, Spring Boot, JDBC, các Design Patterns, bài tập thực hành và tài liệu học Java hữu ích.</description>
+    </item>
+  </channel>
+</rss>

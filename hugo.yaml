@@ -1,0 +1,395 @@
+baseURL: https://bucolic-granita-35deaa.netlify.app/
+languageCode: vi-VN
+title: Nhật Trường Blog
+theme: hugo-profile
+
+# http://localhost:59070/
+
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+publishDir : "public"
+
+Menu:
+  # main:
+  #   - name: "Blog"
+  #     title: "Blog posts"
+  #     url: /Post/java01.html/
+  #     weight: 1
+  #   - name: Gallery
+  #     title: Blog posts
+  #     url: /gallery
+  #     weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Nhật Trường Profile"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: /images/favicon.ico
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Nhật Trường" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Xin chào, tôi tên là"
+    title: "Nhật Trường."
+    subtitle: "Chào mừng bạn đến trang web của tôi"
+    content: "Là một nhà phát triển ứng dụng web đầy nhiệt huyết. Tôi có xu hướng sử dụng các công nghệ web hiện đại để xây dựng các trang web trông tuyệt vời, có cảm giác tuyệt vời và hoạt động chính xác."
+    image: /images/jjj.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://example.com
+        - icon: fab fa-x-twitter
+          url: https://example.com
+      customIcons:
+        - icon: /images/favicon.ico
+          url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "Giới thiệu"
+    image: "/images/jjj.jpg"
+    content: |-
+      Sinh viên năm cuối ngành Công nghệ Phần mềm tại Đại học Công nghệ TP.HCM, tôi đam mê phát triển web. Với nền tảng vững chắc về khoa học máy tính và toán học, tôi luôn tìm kiếm sự giao thoa giữa công nghệ và nghệ thuật.
+
+      Với dự án này, tôi sẽ xây dựng một blog cá nhân để chia sẻ những kinh nghiệm thực tế và kiến thức lý thuyết về Java và JavaScript, giúp người đọc hiểu sâu hơn về hai ngôn ngữ lập trình này.
+    skills:
+      enable: true
+      title: "Sau đây là một số công nghệ tôi đã sử dụng gần đây:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "Vuejs"
+        - "Node"
+        - "Express"
+
+  # Experience
+  experience:
+    enable: true
+    title: "Chứng chỉ"
+    items:
+      - job: "Danh sách các chứng chỉ"
+        company: "Certificate"
+        image: /images/Netbasic.png
+        content: "Đây là danh sách các chứng chỉ mà tôi đạt được trong môn học vừa qua, bao gồm 3 chứng chỉ, đó là Networking Basic, JavaScript Essentials 1 và JavaScript Essentials 2"
+
+      - job: "Chứng chỉ Cisco"
+        company: "Networking Basic"
+        companyUrl: "https://github.com/NhatTruong200403/Certificate/blob/main/Netbasic.png"
+        date: "Otcober 2024"
+        image: /images/Netbasic.png
+        featuredLink:
+          enable: true
+          url: "https://github.com/NhatTruong200403/Certificate/blob/main/Netbasic.png"
+        info:
+          enable: true
+          content: Chứng chỉ Networking Basic
+        content: |
+          Chứng chỉ Networking Basic được Cisco cấp sau khi học xong tất cả khóa học, và thi qua các bài kiểm tra. Chứng chỉ sẽ thể hiện được bạn có kinh nghiệm về Networking Basic hay không.
+
+      
+      - job: "Chứng chỉ Cisco"
+        company: "JavaScript Essentials 1"
+        companyUrl: "https://github.com/NhatTruong200403/Certificate/blob/main/Java1.png"
+        date: "November 2024"
+        image: /images/Java1.png
+        featuredLink:
+          enable: true
+          url: "https://github.com/NhatTruong200403/Certificate/blob/main/Java1.png"
+        info:
+          enable: true
+          content: Chứng chỉ JavaScript Essentials 1.
+        content: |
+          Chứng chỉ JavaScript Essentials 1 được Cisco cấp sau khi học xong tất cả khóa học, và thi qua các bài kiểm tra. Chứng chỉ sẽ thể hiện được bạn có kinh nghiệm về JavaScript Essentials 1 hay không.
+
+
+      - job: "Chứng chỉ Cisco"
+        company: "JavaScript Essentials 2"
+        companyUrl: "https://github.com/NhatTruong200403/Certificate/blob/main/Java2.png"
+        date: "December 2024"
+        image: /images/Java2.png
+        info:
+          enable: true
+          content: Chứng chỉ JavaScript Essentials 2.
+        featuredLink:
+          enable: true
+          url: "https://github.com/NhatTruong200403/Certificate/blob/main/Java2.png"
+        content: |
+          Chứng chỉ JavaScript Essentials 2 được Cisco cấp sau khi học xong tất cả khóa học, và thi qua các bài kiểm tra. Chứng chỉ sẽ thể hiện được bạn có kinh nghiệm về Networking Basic hay không.
+
+
+      
+  # Education
+  education:
+    enable: true
+    title: "Học vấn"
+    index: false
+    items:
+      - title: "Công nghệ phần mềm"
+        school:
+          name: "Đại học công nghệ TPHCM"
+          url: "https://www.hutech.edu.vn/"
+        date: "2021 - hiện tại"
+        GPA: "3"
+        content: |-
+          Thường xuyên tham gia các đồ án và các hoạt động tình nguyện một cách tích cực 
+            - Đồ án môn học
+            - Mùa hè xanh
+
+  # Achievements
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #       image: /images/achievment.jpg
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #       image: /images/achievment.jpg
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #       image: /images/achievment.jpg
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+
+  # projectsforme
+  projects:
+    enable: true
+    title: "Dự án"
+    items:
+      - title: SUPER CAR
+        content: Super Car là một trang thương mại điện tử được thiết kế cho các đại lý xe oto, cho phép người dùng có thể tìm kiếm, xem chi tiết xe..
+        image: /images/supercar.png
+        featured:
+          name: Xem chi tiết
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "C#"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Web nghe nhạc
+        content: Là một Web nghe nhạc trực tuyến, không có chèn quảng cáo, giúp người dùng nghe và tải nhạc tiện lợi hơn, thoải mái hơn. Với đa dạng thể loại nhạc cho tất cả tuổi tác.
+        image: /images/Webnhac.png
+        featured:
+          name: Xem chi tiết
+          link: https://github.com/Teamltud9/Nhom09_WebNgheNhac
+        badges:
+          - "Java"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Teamltud9/Nhom09_WebNgheNhac
+
+      - title: GoWheels
+        content: Gowheels là một website cung cấp dịch vụ thuê và cho thuê xe oto. Đặt xe nhanh chóng tiện lợi, cước phí hợp lý, nhiều chương trình khuyến mãi.
+        image: /images/GoWheels.png
+        featured:
+          name: Xem chi tiết
+          link: https://github.com/NhatTruong200403/DACN_API
+        badges:
+          - "Vuejs"
+          - "C#"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/NhatTruong200403/DACN_API
+
+  
+  #Contact
+  contact:
+    enable: true
+    title: "Liên hệ"
+    content: Hộp thư luôn mở để đón nhận mọi câu hỏi, góp ý về công việc. Hãy liên hệ với tôi bất cứ khi nào bạn cần!
+    btnName: Mail của tôi
+    btnLink: mailto:nhattruong200403@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+  PostsJava:
+      path: "blogs"
+      count: 6
+      title: Java
+      enable: true
+      disableFeaturedImage: false
+  PostsJava2:
+      path: "blogs2"
+      count: 6
+      title: JavaScript
+      enable: true
+      disableFeaturedImage: false
+
+  footer:
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 6
+    #   title: Các bài viết về Java
+    #   enable: true
+    #   disableFeaturedImage: false
+
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      # instagram: https://instagram.com
+      facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
