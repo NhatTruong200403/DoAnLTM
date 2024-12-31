@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Giới thiệu về Spring Boot Actuator trong ứng dụng Spring Boot on Nhật Trường Blog</title>
-    <link>http://localhost:61722/blogs/javae/</link>
+    <link>http://localhost:1313/blogs/javae/</link>
     <description>Recent content in Giới thiệu về Spring Boot Actuator trong ứng dụng Spring Boot on Nhật Trường Blog</description>
     <generator>Hugo</generator>
     <language>vi-VN</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:61722/blogs/javae/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/javae/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

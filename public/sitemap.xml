@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61722/blogs/javaf/</loc>
+    <loc>http://localhost:1313/blogs/javaf/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs/javad/</loc>
+    <loc>http://localhost:1313/blogs/javad/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs/javac/</loc>
+    <loc>http://localhost:1313/blogs/javac/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs/javab/</loc>
+    <loc>http://localhost:1313/blogs/javab/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs/javae/</loc>
+    <loc>http://localhost:1313/blogs/javae/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-30T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/</loc>
+    <loc>http://localhost:1313/blogs2/</loc>
     <lastmod>2023-12-31T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/scriptd/</loc>
+    <loc>http://localhost:1313/blogs2/scriptd/</loc>
     <lastmod>2023-12-31T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/scriptb/</loc>
+    <loc>http://localhost:1313/blogs2/scriptb/</loc>
     <lastmod>2023-12-31T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/scriptf/</loc>
+    <loc>http://localhost:1313/blogs2/scriptf/</loc>
     <lastmod>2023-12-31T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/scripte/</loc>
+    <loc>http://localhost:1313/blogs2/scripte/</loc>
     <lastmod>2023-12-31T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/scriptc/</loc>
+    <loc>http://localhost:1313/blogs2/scriptc/</loc>
     <lastmod>2023-12-31T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs2/scripta/</loc>
+    <loc>http://localhost:1313/blogs2/scripta/</loc>
     <lastmod>2023-02-23T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/blogs/javaa/</loc>
+    <loc>http://localhost:1313/blogs/javaa/</loc>
     <lastmod>2023-02-23T12:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:61722/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:61722/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

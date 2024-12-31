@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nhật Trường Blog</title>
-    <link>http://localhost:61722/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Nhật Trường Blog</description>
     <generator>Hugo</generator>
     <language>vi-VN</language>
     <lastBuildDate>Mon, 30 Dec 2024 12:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:61722/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bảo mật Spring Boot RESTful Service sử dụng Basic Authentication trong Java</title>
-      <link>http://localhost:61722/blogs/javaf/</link>
+      <link>http://localhost:1313/blogs/javaf/</link>
       <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs/javaf/</guid>
+      <guid>http://localhost:1313/blogs/javaf/</guid>
       <description>Bài viết này sẽ hướng dẫn bạn cách bảo mật một dịch vụ RESTful trong Spring Boot sử dụng Basic Authentication. Chúng ta sẽ cấu hình Spring Security để yêu cầu xác thực khi truy cập vào các endpoint của dịch vụ.</description>
     </item>
     <item>
       <title>Các thuộc tính của Spring Boot trong Java</title>
-      <link>http://localhost:61722/blogs/javad/</link>
+      <link>http://localhost:1313/blogs/javad/</link>
       <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs/javad/</guid>
+      <guid>http://localhost:1313/blogs/javad/</guid>
       <description>Spring Boot cung cấp rất nhiều thuộc tính cấu hình để tùy chỉnh và tối ưu hóa ứng dụng. Trong bài viết này, chúng ta sẽ khám phá các thuộc tính quan trọng của Spring Boot và cách sử dụng chúng.</description>
     </item>
     <item>
       <title>Cài đặt Spring Boot trong Java và xây dựng dự án cơ bản</title>
-      <link>http://localhost:61722/blogs/javac/</link>
+      <link>http://localhost:1313/blogs/javac/</link>
       <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs/javac/</guid>
+      <guid>http://localhost:1313/blogs/javac/</guid>
       <description>Spring Boot là một framework mạnh mẽ giúp phát triển ứng dụng Java nhanh chóng và dễ dàng. Trong bài viết này, chúng ta sẽ tìm hiểu cách cài đặt Spring Boot và tạo một dự án Spring Boot cơ bản, bao gồm việc tạo các API REST đơn giản.</description>
     </item>
     <item>
       <title>Giới thiệu về ngôn ngữ Java</title>
-      <link>http://localhost:61722/blogs/javab/</link>
+      <link>http://localhost:1313/blogs/javab/</link>
       <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs/javab/</guid>
+      <guid>http://localhost:1313/blogs/javab/</guid>
       <description>Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất trên thế giới. Được phát triển bởi Sun Microsystems (nay là Oracle), Java đã chinh phục được nhiều lập trình viên nhờ tính ổn định, khả năng mở rộng và tính di động cao. Trong bài viết này, chúng ta sẽ cùng tìm hiểu về ngôn ngữ Java, đặc điểm nổi bật và ứng dụng của nó trong thế giới lập trình.</description>
     </item>
     <item>
       <title>Giới thiệu về Spring Boot Actuator trong ứng dụng Spring Boot</title>
-      <link>http://localhost:61722/blogs/javae/</link>
+      <link>http://localhost:1313/blogs/javae/</link>
       <pubDate>Mon, 30 Dec 2024 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs/javae/</guid>
+      <guid>http://localhost:1313/blogs/javae/</guid>
       <description>Spring Boot Actuator cung cấp các tính năng giám sát và quản lý cho các ứng dụng Spring Boot, giúp dễ dàng theo dõi và quản lý trạng thái của ứng dụng trong môi trường sản xuất. Bài viết này giới thiệu về các tính năng chính của Spring Boot Actuator và cách sử dụng chúng.</description>
     </item>
     <item>
       <title>Các sự kiện (Event) trong Javascript</title>
-      <link>http://localhost:61722/blogs2/scriptd/</link>
+      <link>http://localhost:1313/blogs2/scriptd/</link>
       <pubDate>Sun, 31 Dec 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs2/scriptd/</guid>
+      <guid>http://localhost:1313/blogs2/scriptd/</guid>
       <description>Hiểu rõ về sự kiện trong JavaScript, cách xử lý chúng và các loại sự kiện phổ biến như click, hover, submit. Học cách sử dụng Event Listener để làm cho ứng dụng web trở nên tương tác hơn.</description>
     </item>
     <item>
       <title>Các toán tử trong JavaScript</title>
-      <link>http://localhost:61722/blogs2/scriptb/</link>
+      <link>http://localhost:1313/blogs2/scriptb/</link>
       <pubDate>Sun, 31 Dec 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs2/scriptb/</guid>
+      <guid>http://localhost:1313/blogs2/scriptb/</guid>
       <description>JavaScript cung cấp nhiều loại toán tử giúp thao tác với dữ liệu. Bài viết này sẽ tổng hợp các loại toán tử và cung cấp ví dụ minh họ.</description>
     </item>
     <item>
       <title>Đối tượng / Object trong Javascript</title>
-      <link>http://localhost:61722/blogs2/scriptf/</link>
+      <link>http://localhost:1313/blogs2/scriptf/</link>
       <pubDate>Sun, 31 Dec 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs2/scriptf/</guid>
+      <guid>http://localhost:1313/blogs2/scriptf/</guid>
       <description>Tìm hiểu về đối tượng (Object) trong Javascript, cách tạo và sử dụng các thuộc tính, phương thức, cũng như các thao tác phổ biến với đối tượng.</description>
     </item>
     <item>
       <title>DOM là gì? Các thao tác với DOM trong Javascript</title>
-      <link>http://localhost:61722/blogs2/scripte/</link>
+      <link>http://localhost:1313/blogs2/scripte/</link>
       <pubDate>Sun, 31 Dec 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs2/scripte/</guid>
+      <guid>http://localhost:1313/blogs2/scripte/</guid>
       <description>Tìm hiểu DOM (Document Object Model), cách hoạt động của nó trong JavaScript và các thao tác phổ biến như truy xuất, thay đổi nội dung, thêm hoặc xóa phần tử HTML.</description>
     </item>
     <item>
       <title>Function trong Javascript - Cách tạo hàm và gọi hàm trong JS</title>
-      <link>http://localhost:61722/blogs2/scriptc/</link>
+      <link>http://localhost:1313/blogs2/scriptc/</link>
       <pubDate>Sun, 31 Dec 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs2/scriptc/</guid>
+      <guid>http://localhost:1313/blogs2/scriptc/</guid>
       <description>Tìm hiểu chi tiết về function trong JavaScript: cách tạo hàm, gọi hàm, và các kiểu hàm khác nhau như hàm thông thường, hàm ẩn danh, hàm mũi tên. Học cách sử dụng các tham số, đối số và các từ khóa đặc biệt như return.</description>
     </item>
     <item>
       <title>Tìm hiểu ngôn ngữ lập trình JavaScript</title>
-      <link>http://localhost:61722/blogs2/scripta/</link>
+      <link>http://localhost:1313/blogs2/scripta/</link>
       <pubDate>Thu, 23 Feb 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs2/scripta/</guid>
+      <guid>http://localhost:1313/blogs2/scripta/</guid>
       <description>JavaScript (JS) là ngôn ngữ lập trình phổ biến, linh hoạt và mạnh mẽ, được sử dụng chủ yếu cho phát triển web. Nó cho phép tạo các trang web động và tương tác, đồng thời được ứng dụng rộng rãi trong các công nghệ hiện đại như Node.js, React, và Angular.</description>
     </item>
     <item>
       <title>Toàn bộ kiến thức Java từ cơ bản đến nâng cao</title>
-      <link>http://localhost:61722/blogs/javaa/</link>
+      <link>http://localhost:1313/blogs/javaa/</link>
       <pubDate>Thu, 23 Feb 2023 12:00:00 +0700</pubDate>
-      <guid>http://localhost:61722/blogs/javaa/</guid>
+      <guid>http://localhost:1313/blogs/javaa/</guid>
       <description>Java là một ngôn ngữ lập trình rất phổ biến với khả năng phát triển đa nền tảng. Phiên bản Java 8 đánh dấu một bước ngoặt lớn trong việc giới thiệu các tính năng mạnh mẽ như Stream API và Lambda Expressions, giúp việc xử lý dữ liệu trở nên dễ dàng hơn bao giờ hết. Trong bài viết này, chúng ta sẽ khám phá các chủ đề quan trọng để học Java từ cơ bản đến nâng cao, bao gồm Java Core, Spring Boot, JDBC, các Design Patterns, bài tập thực hành và tài liệu học Java hữu ích.</description>
     </item>
   </channel>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Function trong Javascript - Cách tạo hàm và gọi hàm trong JS on Nhật Trường Blog</title>
-    <link>http://localhost:61722/blogs2/scriptc/</link>
+    <link>http://localhost:1313/blogs2/scriptc/</link>
     <description>Recent content in Function trong Javascript - Cách tạo hàm và gọi hàm trong JS on Nhật Trường Blog</description>
     <generator>Hugo</generator>
     <language>vi-VN</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:61722/blogs2/scriptc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs2/scriptc/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
