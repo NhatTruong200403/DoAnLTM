@@ -1,0 +1,123 @@
+<div class="recent-posts py-5" id="JavaScript">
+    <div class="container" >
+        {{ with .Site.Params.PostsJava2 }}
+        {{ if .enable }}
+        <h3 class="text-center">{{ .Site.Params.PostsJava2.title | default "JavaScript" }}</h3>
+        <div class="post-list">
+            {{ $path := .path }}
+            {{ range first .count (where $.Site.RegularPages "Section" $path) }}
+            <div class="post-item col-lg-4 col-md-6">
+                <a href="{{ .Permalink }}" class="card">
+                    <div class="card-head">
+                        {{ if not $.Site.Params.PostsJava.disableFeaturedImage }}
+                        {{ with .Params.image }}
+                        <img class="card-img-top" src="{{ . }}" alt="{{ $.Title }}">
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                    <div class="post-content">
+                        <h3>{{ .Title }}</h3>
+                        <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        {{ else }}
+        <p>Recent posts are disabled.</p>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+
+<style>
+    /* General container styles */
+    .container {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    /* Recent posts styles */
+    .recent-posts {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    /* Post list (grid layout) */
+    .post-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        /* Center the posts */
+        gap: 20px;
+        /* Spacing between posts */
+    }
+
+    /* Post item */
+    .post-item {
+        flex: 1 1 calc(33.33% - 20px);
+        /* Each item takes up 1/3 of the row minus spacing */
+        max-width: calc(33.33% - 20px);
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #fff;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    /* Card styles */
+    .card {
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Image styles */
+    .card-head img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        /* Keep the image centered and cover the area */
+        transition: transform 0.3s ease-out;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card:hover .card-head img {
+        transform: scale(1.1);
+        /* Zoom effect on hover */
+    }
+
+    /* Post content */
+    .post-content {
+        padding: 15px;
+        text-align: left;
+    }
+
+    .post-content h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .post-date {
+        font-size: 0.875em;
+        color: #666;
+    }
+
+    /* Hover effects */
+    .post-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+ 
+    @media (max-width: 760px) {
+        .post-item {
+            flex: 1 1 100%;
+            /* 1 column on mobile */
+            max-width: 100%;
+        }   
+    }
+</style>
